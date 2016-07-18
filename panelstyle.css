@@ -34,14 +34,14 @@ body
 	h1
 	{
 		/*font-family:Century Gothic; */
-		color:#666666;
+		color:#a6a6a6;
 		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	}
 	h4
 	{
 		font-size:21px;
 		font-family: "Courier New", Courier, monospace;
-		color: #666666;
+		color: #a6a6a6;
 	}
 	.btn
 	{
@@ -60,8 +60,9 @@ body
 		font-size:35px;
 		color:#b3b3b3;
 		margin-top:8px;
+		transition:color .5s ease-in-out;
 	}
-	span:hover
+	.fa:hover
 	{
 		border-color:#ff4d4d;
 		color:#ff8080;
