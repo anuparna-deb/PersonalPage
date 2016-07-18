@@ -1,0 +1,59 @@
+body
+	{
+		background-image: url("bk1.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		font-family: sans-serif;
+	}
+	.panel
+	{
+		margin-top:50px; 
+		border-radius:5px; 
+		box-shadow: 1px 1px gray;
+	}
+	#left
+	{
+		width:150px; 
+		margin-left:-16px; 
+		margin-top:170px; 
+		border-width:1px; 
+		border-color:#b3b3b3;
+	}
+	#right
+	{
+		width:150px; 
+		margin-left:374px;
+		margin-top:-20px; 
+		border-width:1px; 
+		border-color:#b3b3b3;
+	}
+	h1, h4
+	{
+		font-family:Century Gothic; 
+		color:#666666;
+	}
+	h4
+	{
+		font-size:21px;
+	}
+	.btn
+	{
+		border-color:#b3b3b3; 
+		border-radius:50px; 
+		height:60px; 
+		width:65px; 
+		padding:5px; 
+		margin:5px;
+	}
+	.fa
+	{
+		font-size:35px;
+		color:#b3b3b3;
+		margin-top:8px;
+	}
+	a:hover , span:hover
+	{
+		border-color:#ff4d4d;
+		color:#ff4d4d;
+	}
